@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+venv/
+.env
+*.json
+__pycache__/
+*.pyc
+.DS_Store
+gcp-key.json
+chroma_db/
+EOF
